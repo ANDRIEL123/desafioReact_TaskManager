@@ -1,4 +1,4 @@
-Desafio React - Gerenciador de Tarefas
+# Desafio React - Gerenciador de Tarefas
 
 O desafio tem como objetivo realizar o desenvolvimento de um site em React com o
 tema de Gerenciador de Tarefas, onde o mesmo atenda os seguintes pré-requisitos:
