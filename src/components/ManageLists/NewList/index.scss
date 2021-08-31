@@ -1,0 +1,25 @@
+    .newlist {
+        display: block;
+        margin-top: 1em;
+        .btn-list {
+            background-color: rgb(212, 212, 212);
+            color: gray;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-left: 1em;
+            width: 14em;
+            height: 2em;
+            border-radius: 1em;
+            padding: 0.1em;
+            align-items: center;
+
+            
+        }
+
+        .btn-list:hover {
+            cursor: pointer;
+        }
+    }
+
+

@@ -1,0 +1,130 @@
+.manage-lists {
+    display: flex;
+    margin: 1em;
+}
+
+.separa {
+    display: block;
+    margin: 0.8em;
+    
+    
+    
+    .list {
+        padding: 0.5em;
+        background-color: rgb(212, 212, 212);
+        display: block;
+        max-width: 17em;
+        align-items: center;
+        border-radius: 10px;
+    
+        .header-list {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.001em;
+            margin: 1em;
+            align-items: center;
+            color: black;
+            font-weight: bold;
+
+            .menu:hover {
+                cursor: pointer;
+            }
+
+            input {
+                background-color: rgb(212, 212, 212);
+                border: none;
+                font-size: 1em;
+            }
+        }
+    
+        .footer-list {
+            text-align: center;
+            color: gray;
+
+            p {
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+
+                label {
+                    margin-right: 0.4rem;
+                }
+            }
+        }
+        .footer-list:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+
+.card {
+    background-color: white;
+    margin-top: 0.5em;
+    padding: 1rem;
+    font-size: 0.9rem;
+    display: block;
+    align-items: center;
+    border-radius: 0.5rem;
+    
+    .title {
+        display: flex;
+        justify-content: space-between;
+
+        label {
+            font-weight: bold;
+            display: flex;
+            
+            justify-content: center;
+            align-items: center;
+            margin-left: 0.4rem;
+        }
+    }
+
+    .date {
+        font-weight: bold;
+        display: flex;
+
+        label {
+            margin-left: 0.4rem;
+        }
+    }
+
+    .linear {
+        margin-top: 0.6rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
+.card:hover, .title:hover, .date:hover, label {
+    cursor: pointer;
+}
+
+
+.modal-info {
+    display: block;
+
+    h2 {
+        background-color: rgb(212, 212, 212);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+    label {
+        display: flex;
+        align-items: center;
+        label {
+            margin-left: 0.3rem;
+        }
+    }
+}

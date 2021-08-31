@@ -1,0 +1,24 @@
+.header {
+    background-color: rgba(43, 43, 214, 0.973);
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    label {
+        font-weight: bold;
+        font-size: 1.2em;
+        color: white;
+    }
+
+    label:hover {
+        cursor: pointer;
+    }
+
+    img:hover {
+        cursor: pointer;
+    }
+
+}
