@@ -1,3 +1,19 @@
+Desafio React - Gerenciador de Tarefas
+
+O desafio tem como objetivo realizar o desenvolvimento de um site em React com o
+tema de Gerenciador de Tarefas, onde o mesmo atenda os seguintes pré-requisitos:
+
+● Interface home, onde o usuário terá acesso às principais funcionalidades do
+site:
+
+○ Deve haver uma listagem com as tarefas do usuário;
+○ Deve existir os recursos de inclusão, alteração e exclusão de tarefas;
+○ Os dados solicitados são: título, descrição, prazo, prioridade e
+percentual de progresso;
+○ Deve ser possível ordenar a listagem por prazo ou prioridade;
+○ Na listagem deve ser exibido uma barra de progresso com o
+percentual de cada atividade;
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
